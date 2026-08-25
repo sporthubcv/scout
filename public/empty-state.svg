@@ -1,0 +1,24 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Minimal line illustration: basketball + whistle + clipboard. ink-600 lines, one orange accent. -->
+  <g stroke="#3F4248" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- clipboard -->
+    <rect x="196" y="78" width="128" height="160" rx="10"/>
+    <rect x="238" y="66" width="44" height="22" rx="8"/>
+    <line x1="216" y1="116" x2="304" y2="116"/>
+    <line x1="216" y1="140" x2="304" y2="140"/>
+    <line x1="216" y1="164" x2="272" y2="164"/>
+    <!-- court play lines on clipboard -->
+    <path d="M216 196 h88 M260 196 v28 M236 224 a24 24 0 0 1 48 0"/>
+    <!-- whistle -->
+    <path d="M96 196 h44 l14 14 a22 22 0 1 1 -14 38 h-24 a20 20 0 0 1 -20 -20 v-32 z"/>
+    <circle cx="140" cy="228" r="9"/>
+    <line x1="96" y1="196" x2="96" y2="184"/>
+  </g>
+  <!-- basketball with orange accent line -->
+  <g stroke="#3F4248" stroke-width="1.5" stroke-linecap="round">
+    <circle cx="110" cy="96" r="44"/>
+    <path d="M66 96 h88"/>
+    <path d="M110 52 a44 44 0 0 1 0 88 M110 52 a44 44 0 0 0 0 88" stroke="#F97316"/>
+    <path d="M78 64 a44 44 0 0 1 0 64 M142 64 a44 44 0 0 0 0 64"/>
+  </g>
+</svg>
