@@ -1,0 +1,53 @@
+/** Fictional demo opportunities. No real organizations. */
+import type { Opportunity } from './types';
+
+export const opportunities: Opportunity[] = [
+  {
+    id: 'op1',
+    title: 'Trial de Sub-18 — Academia Atlântico (fictícia)',
+    organization: 'Academia Atlântico (fictícia)',
+    sport: 'football',
+    type: 'trial',
+    location: 'Mindelo, São Vicente',
+    deadline: '2027-03-15',
+    ageGroup: 'Sub-18',
+    descriptionPt: 'Observação aberta para médios e avançados Sub-18. Inscrição via perfil verificado.',
+    descriptionEn: 'Open trial for U-18 midfielders and forwards. Apply with a verified profile.',
+  },
+  {
+    id: 'op2',
+    title: 'Bolsa de desenvolvimento — velocidade',
+    organization: 'Fundo Desportivo Insular (fictício)',
+    sport: 'athletics',
+    type: 'scholarship',
+    location: 'Praia, Santiago',
+    deadline: '2027-04-01',
+    ageGroup: 'Sub-20',
+    descriptionPt: 'Bolsa anual para velocistas com marcas verificadas em meetings oficiais.',
+    descriptionEn: 'Annual scholarship for sprinters with verified marks at official meetings.',
+  },
+  {
+    id: 'op3',
+    title: 'Campus de basquetebol — seleção regional',
+    organization: 'Horizonte Scouting (fictício)',
+    sport: 'basketball',
+    type: 'academy',
+    location: 'Praia, Santiago',
+    deadline: '2027-02-20',
+    ageGroup: 'Sub-16',
+    descriptionPt: 'Campus de duas semanas com scouts convidados da diáspora.',
+    descriptionEn: 'Two-week camp with invited diaspora scouts.',
+  },
+  {
+    id: 'op4',
+    title: 'Contrato de formação — clube da diáspora (fictício)',
+    organization: 'CD Lusitano do Vale (fictício)',
+    sport: 'football',
+    type: 'contract',
+    location: 'Diáspora',
+    deadline: '2027-05-10',
+    ageGroup: 'Sub-19',
+    descriptionPt: 'Procura defesa-central Sub-19 com relatórios de scout recentes.',
+    descriptionEn: 'Looking for a U-19 centre-back with recent scout reports.',
+  },
+];
